@@ -1,4 +1,4 @@
-module github.com/jstemmer/go-junit-report/v2
+module github.com/sruehl/go-junit-report/v2
 
 go 1.13
 
