@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jstemmer/go-junit-report/v2/internal/gojunitreport"
-	"github.com/jstemmer/go-junit-report/v2/parser/gotest"
+	"github.com/sruehl/go-junit-report/v2/internal/gojunitreport"
+	"github.com/sruehl/go-junit-report/v2/parser/gotest"
 )
 
 // Current release information printed by the -version flag.

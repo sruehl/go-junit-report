@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jstemmer/go-junit-report/v2/gtr"
-	"github.com/jstemmer/go-junit-report/v2/parser/gotest/internal/collector"
+	"github.com/sruehl/go-junit-report/v2/gtr"
+	"github.com/sruehl/go-junit-report/v2/parser/gotest/internal/collector"
 
 	"github.com/google/go-cmp/cmp"
 )
