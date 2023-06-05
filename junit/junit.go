@@ -5,6 +5,7 @@ package junit
 import (
 	"encoding/xml"
 	"fmt"
+	"github.com/acarl005/stripansi"
 	"io"
 	"strings"
 	"time"
@@ -255,6 +256,7 @@ func formatOutput(output []string) string {
 }
 
 func escapeIllegalChars(str string) string {
+	str = stripansi.Strip(str)
 	return strings.Map(func(r rune) rune {
 		if isInCharacterRange(r) {
 			return r
